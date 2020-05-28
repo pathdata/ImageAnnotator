@@ -1,7 +1,1 @@
-# ImageAnnotator
-######## Add overview ############
-Tissue_segmentation
-CIS segmentation
-Cell Detection
-Cell Classification
-####### Complete ################
+# Prepare Data for Convolutional Neural Networks
