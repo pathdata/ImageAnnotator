@@ -1,3 +1,7 @@
+# conda create -y -n napari_e python=3.9
+# conda activate napari_e
+# pip install napari[all] in a new conda environment
+# pip install
 import napari
 from skimage import io
 
@@ -5,3 +9,7 @@ from skimage import io
 viewer=napari.Viewer()
 img = io.imread(r'treated_img.jpg')
 viewer = napari.view_image(data=img, rgb=True)
+
+#Load Whole slide image in the napari
+
+#
